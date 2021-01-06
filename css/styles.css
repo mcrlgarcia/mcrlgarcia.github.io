@@ -60,6 +60,17 @@ footer p {
 }
 
 #last_line {
-    color: yellow;
+    color: #ffff00d8;
     font-size: .8em;
 }
+
+li a:visited {
+    color:#4646f5;
+    background-color: transparent;
+
+  }
+li a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
