@@ -9,11 +9,13 @@
 img {
     height: 180px;
     float: right;
-    border: 2px solid black;
+    box-shadow: 1px 4px 25px #643219;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
+    letter-spacing: 5px;
     color: #ffffff;
     background-color: #643219;
     font-size: 2em;
@@ -27,6 +29,7 @@ h1 {
 }
 
 footer {
+    letter-spacing: 1px;
     text-align: center;
     color: #ffffff;
     background-color: #643219;
