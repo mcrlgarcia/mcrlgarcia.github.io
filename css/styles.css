@@ -74,6 +74,7 @@ footer p {
 #last_line {
     color: #ffff00d8;
     font-size: .8em;
+    padding: 1px;
 }
 
 li a:visited {
