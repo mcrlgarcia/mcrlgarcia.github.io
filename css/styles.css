@@ -13,8 +13,7 @@ body {
     font-family: Montserrat;
     color: #643219;
     background-color: #eee4e1;
-    border-radius: 12px;
-    border-style: outset;
+ 
 }
 
 img {
@@ -86,4 +85,12 @@ li a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+}
+
+media screen and (max-width: 550px) {
+    /* beginning of media query */
+    .home-grid, nav ul, .banner-box {
+        display: block;
+    }
+    /* end of media query */
 }
