@@ -1,0 +1,2 @@
+let d = new Date();
+document.getElementById("currentdate").textContent = d.getMonth() + 1 + "/" + d.getDate() + "/" + d.getFullYear() + "     " + d.getHours() + ": " + d.getMinutes() + ": " + d.getSeconds();
