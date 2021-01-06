@@ -1,26 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* Color Scheme
+https://coolors.co/ecf8f8-eee4e1-e7d8c9-e6beae-5a4635*/
+
+body {
+    background-color: #e6beae;
+}
+
 #content {
-    max-width: 650px;
+    max-width: 750px;
     margin: 0 auto;
     font-family: Montserrat;
     color: #643219;
-
+    background-color: #eee4e1;
+    border-radius: 12px;
+    border-style: outset;
 }
 
 img {
+
     height: 180px;
     float: right;
-    box-shadow: 1px 4px 25px #643219;
+    box-shadow: 1px 4px 25px #5a4635;
     margin: 0;
+    border-radius: 12px;
+    border-style: outset;
+    border: 3px ridge #e6beae;
 }
 
 h1 {
     text-align: center;
-    
     color: #ffffff;
-    background-color: #643219;
+    background-color: #5a4635;
     font-size: 2.5em;
     margin: auto;
     padding: 20px;
@@ -36,6 +47,7 @@ ul {
     margin: 0;
     padding: 0 0 0 30px;
 }
+
 .info {
     margin: 40px 20px;
 }
@@ -44,7 +56,7 @@ footer {
     letter-spacing: 1px;
     text-align: center;
     color: #ffffff;
-    background-color: #643219;
+    background-color: #5a4635;
     margin: auto;
     padding: 2px;
     border-radius: 12px;
@@ -65,12 +77,13 @@ footer p {
 }
 
 li a:visited {
-    color:#4646f5;
+    color: #4646f5;
     background-color: transparent;
 
-  }
+}
+
 li a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
