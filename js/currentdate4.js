@@ -1,22 +1,8 @@
-let { month, date, hours, minutes, seconds } = newFunction();
+/*Reference:
+https://www.w3schools.com/jsref/prop_doc_lastmodified.asp
 
+https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified
+*/
 
-document.getElementById('currentdate').innerHTML = `&nbsp &nbsp${month}/ ${date}/ ${year}&nbsp &nbsp${hours}:${minutes}:${seconds}`; 
-
-
-function newFunction() {
-    let today = new Date();
-
-    let month = today.getMonth() + 1;
-    let year = today.getFullYear();
-    let date = today.getDate();
-
-    let hours = today.getHours();
-    let minutes = today.getMinutes();
-    let seconds = today.getSeconds();
-    return { month, date, hours, minutes, seconds };
-}
-/*
-function addZero(num){
-    return num <10 ? '0${num}': num;
-}*/
+var string = document.lastModified;
+document.getElementById("currentdate").innerHTML = string;

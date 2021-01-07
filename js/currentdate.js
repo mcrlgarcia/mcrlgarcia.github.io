@@ -1,9 +1,18 @@
-/*Reference:
-https://www.w3schools.com/jsref/prop_doc_lastmodified.asp
+let { month, date, hours, minutes, seconds } = newFunction();
 
-https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified
-*/
 
-var string = document.lastModified;
-document.getElementById("currentdate").innerHTML = string;
+document.getElementById('currentdate').innerHTML = `&nbsp &nbsp${month}/ ${date}/ ${year}&nbsp &nbsp${hours}:${minutes}:${seconds}`; 
 
+
+function newFunction() {
+    let today = new Date();
+
+    let month = today.getMonth() + 1;
+    let year = today.getFullYear();
+    let date = today.getDate();
+
+    let hours = today.getHours();
+    let minutes = today.getMinutes();
+    let seconds = today.getSeconds();
+    return { month, date, hours, minutes, seconds };
+}
