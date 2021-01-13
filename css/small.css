@@ -3,6 +3,7 @@ https://coolors.co/ecf8f8-eee4e1-e7d8c9-e6beae-5a4635*/
 
 body {
     background-color: #e6beae;
+
 }
 
 .content {
@@ -15,9 +16,7 @@ body {
 
 img {
     width: 140px;
-    margin-left: 20%;
-
-
+    margin-left: 20px;
 }
 
 header {
@@ -25,9 +24,7 @@ header {
 }
 
 h1 {
-    text-align: center;
     color: #ffffff;
-
     font-size: 1.5em;
     margin: auto;
     padding: 20px;
@@ -58,7 +55,6 @@ footer {
     background-color: #5a4635;
     margin: auto;
     padding: 2px;
-
     font-size: .8em;
     line-height: 1em;
     font-family: Montserrat;
