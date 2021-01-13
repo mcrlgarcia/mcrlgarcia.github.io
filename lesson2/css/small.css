@@ -1,0 +1,92 @@
+/* Color Scheme
+https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff   
+*/
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #e1e5f2;
+    border-color: #1f7a8c;
+    padding: 10px;
+    box-shadow: 4px 4px 4px #bfdbf7;
+    border-style: outset;
+    border: 3px ridge #bfdbf7;
+    border-radius: 12px;
+}
+
+header {
+    background-color: #022b3a;
+    border-radius: 12px;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.website1 {
+    padding: 10px;
+    box-shadow: 4px 4px 4px #bfdbf7;
+    border-style: inset;
+    border: 3px ridge #bfdbf7;
+    border-radius: 12px;
+}
+
+.website1, .par1 {}
+
+p {
+    color: #022b3a;
+    font-family: "roboto condensed";
+}
+
+.website1 .par2 {}
+
+.website1 a {}
+
+.website1 img {}
+
+.website1 .par3 {}
+
+.website2 {
+    padding: 10px;
+    box-shadow: 4px 4px 4px #bfdbf7;
+    border-style: inset;
+    border: 3px ridge #bfdbf7;
+    border-radius: 12px;
+}
+
+.website2 .par1 {}
+
+.website2 .par2 {}
+
+.website2 a {}
+
+.website2 img {}
+
+.website2 .par3 {}
+
+.website3 {
+    padding: 10px;
+    box-shadow: 4px 4px 4px #bfdbf7;
+    border-style: inset;
+    border: 3px ridge #bfdbf7;
+    border-radius: 12px;
+}
+
+.website3 .par1 {}
+
+.website3 .par2 {}
+
+.website3 a {}
+
+.website3 img {}
+
+.website3 .par3 {}
