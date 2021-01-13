@@ -14,28 +14,29 @@ body {
 }
 
 img {
-    max-width: 18%;
-    float: right;
-    box-shadow: 1px 4px 25px #5a4635;
-    margin: 0;
-    border-radius: 12px;
-    border-style: outset;
-    border: 3px ridge #e6beae;
+    width: 140px;
+    margin-left: 20%;
+
+
+}
+
+header {
+    background-color: #5a4635;
 }
 
 h1 {
     text-align: center;
     color: #ffffff;
-    background-color: #5a4635;
-    font-size: 2.5em;
+
+    font-size: 1.5em;
     margin: auto;
     padding: 20px;
-    border-radius: 12px 12px 0 0;
     font-family: Montserrat;
     text-shadow: 4px 4px 4px gray;
 }
 
 h2 {
+    font-size: 1rem;
     margin: 0;
     font-family: Montserrat;
 }
@@ -57,7 +58,7 @@ footer {
     background-color: #5a4635;
     margin: auto;
     padding: 2px;
-    border-radius: 0 0 12px 12px;
+
     font-size: .8em;
     line-height: 1em;
     font-family: Montserrat;
