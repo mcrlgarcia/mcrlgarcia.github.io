@@ -29,6 +29,9 @@ h2 {
 img {
     width: 360px;
     height: 637px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 p {
@@ -46,69 +49,40 @@ a {
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-template-columns: 1fr;
 }
 
 section {
     background-color: #022b3a;
 }
 
-.website1 {
+.website1, .website2, .website3 {
     padding: 10px;
     box-shadow: 4px 4px 4px #bfdbf7;
     border-style: inset;
     border: 3px ridge #bfdbf7;
     border-radius: 12px;
-    margin: 0 auto;
+
 }
 
-.website1, .par1 {}
+/*----------tablet view----------------*/
+@media only screen and (min-width: 37.5em){
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
 
-
-
-.website1 .par2 {}
-
-.website1 a {}
-
-.website1 img {}
-
-.website1 .par3 {}
-
-.website2 {
-    padding: 10px;
-    box-shadow: 4px 4px 4px #bfdbf7;
-    border-style: inset;
-    border: 3px ridge #bfdbf7;
-    border-radius: 12px;
-    margin: 0 auto;
 }
 
-.website2 .par1 {}
 
-.website2 .par2 {}
+/*----------Desktop view----------------*/
+@media only screen and (min-width: 60em){
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
 
-.website2 a {}
-
-.website2 img {}
-
-.website2 .par3 {}
-
-.website3 {
-    padding: 10px;
-    box-shadow: 4px 4px 4px #bfdbf7;
-    border-style: inset;
-    border: 3px ridge #bfdbf7;
-    border-radius: 12px;
-    margin: 0 auto;
 }
 
-.website3 .par1 {}
-
-.website3 .par2 {}
-
-.website3 a {}
-
-.website3 img {}
-
-.website3 .par3 {}
