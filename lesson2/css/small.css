@@ -84,23 +84,3 @@ footer {
 footer a {
     color: white;
 }
-/*----------tablet view----------------*/
-/* @media only screen and (min-width: 37.5em) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-    }
-
-} */
-
-
-/*----------Desktop view----------------*/
-/* @media only screen and (min-width: 60em) {
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-    }
-
-} */
