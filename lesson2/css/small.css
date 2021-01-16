@@ -3,7 +3,6 @@ https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff
 */
 
 .content {
-
     margin: 0 auto;
     background-color: #1f7a8c;
     border-color: #1f7a8c;
@@ -15,10 +14,10 @@ https://coolors.co/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff
 }
 
 .grid {
-    display: grid ;
+    display: grid;
     grid-template-columns: 1fr;
     grid-column: span 3;
-    grid-gap: 20px;    
+    grid-gap: 20px;
 }
 
 header {
@@ -32,17 +31,17 @@ h2 {
     text-align: center;
     font-family: Montserrat;
     padding: 10px 0;
+    margin: 5px;
 }
 
 img {
- 
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
 }
 
-p {
+p, h3 {
     color: #bfdbf7;
     font-family: "roboto condensed";
     font-weight: bold;
@@ -77,10 +76,6 @@ footer {
     margin: auto;
     padding: 2px;
     font-size: .8em;
-    line-height: 1em;
+    line-height: 1.8em;
     font-family: Montserrat;
-}
-
-footer a {
-    color: white;
 }
