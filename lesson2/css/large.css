@@ -1,9 +1,8 @@
 /*----------Desktop view----------------*/
 @media only screen and (min-width: 60em) {
     .grid {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
+        grid-column: span 1;
     }
 
 }
