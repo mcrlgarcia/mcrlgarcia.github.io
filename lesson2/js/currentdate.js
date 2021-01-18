@@ -17,5 +17,5 @@
 //     return { month, date, hours, minutes, seconds };
 // }
 
-var x = document.lastModified;
+let x = document.lastModified;
 document.getElementById("currentdate").innerHTML = x;
